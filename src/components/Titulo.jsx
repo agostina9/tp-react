@@ -1,8 +1,9 @@
 import React from 'react';
+import BtnCambiarTitulo from './BtnCambiarTitulo';
 
 const Titulo = (props) => {
     return (
-        <h1>Hello {props.contenidoPersona}</h1>
+        <BtnCambiarTitulo></BtnCambiarTitulo>
     );
 };
 
